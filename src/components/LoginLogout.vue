@@ -26,14 +26,14 @@ async function signout() {
             Se connecter avec Facebook
         </button>
         <button id="facebook" @pointerdown="supabase.auth.signIn({ provider: 'facebook' })">
-            <p class="fb1"> SE CONNECTER AVEC FACEBOOK </p><img class="fb" src="../../public/images/facebook.png"
+            <p class="fb1"> SE CONNECTER AVEC FACEBOOK </p><img class="fb" src=""
                 alt="" />
         </button>
         <button class="invisible" id="facebook" v-if="user" @pointerdown="supabase.auth.signOut()">
             Se déconnecter ({{ user.email }})
         </button>
         <button id="google" @pointerdown="supabase.auth.signIn({ provider: 'google' })">
-            <p class="fb1"> SE CONNECTER AVEC GOOGLE </p><img class="fb" src="../../public/images/google.png" alt="" />
+            <p class="fb1"> SE CONNECTER AVEC GOOGLE </p><img class="fb" src="" alt="" />
         </button>
 
     </div>
