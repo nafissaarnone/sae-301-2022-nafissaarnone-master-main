@@ -3,6 +3,7 @@ import { supabase, user } from '../supabase'
 
 async function signInWithFacebook() {
     try {
+        // @ts-ignore
     const { data, error } = await supabase.auth.signIn({
         provider: 'facebook',
     });
