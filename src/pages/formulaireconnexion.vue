@@ -6,9 +6,7 @@ import LoginLogout from '@/components/LoginLogout.vue';
 
 <template>
     <div>
-        <Router-link to="/Accueil">
-            <img class="accueil" src="../../public/images/logo noir.png" alt="">
-        </Router-link>
+        
         <div class="mt-auto mb-auto text-center">S'AUTHENTIFIER</div>
     </div>
 
